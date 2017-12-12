@@ -1,0 +1,32 @@
+
+<html>
+<head>
+	<title>SamAng219255</title>
+	<link rel="stylesheet" type="text/css" href="theme.css">
+	<link href="./img/icon.png" rel="shortcut icon">
+	<script src="./christmas.js"></script>
+</head>
+<body>
+	<div id="topBar">
+		<div id="name">Interverse</div>
+		<div id="navigationButtons">
+			<div class="topFullFadeBar"></div><div class="bottomFullFadeBar"></div>
+			<a class="navButHolder" href="github.com/SamAng219255"><div class="navButton"><div class="topFadeBar"></div><div class="bottomFadeBar"></div><div class="navTxt">Github</div></div></a>
+			<a class="navButHolder" href="github.com/SamAng219255?tab=repositories"><div class="navButton"><div class="topFadeBar"></div><div class="bottomFadeBar"></div><div class="navTxt">Repositories</div></div></a>
+			<script>
+				var navBars=document.getElementsByClassName("navButton");
+				var bottomFadeBars=document.getElementsByClassName("bottomFadeBar");
+				var topFadeBars=document.getElementsByClassName("topFadeBar");
+				for(var i=0; i<navBars.length; i++) {
+					bottomFadeBars[i].style="width: "+(navBars[i].offsetWidth-4)+";";
+					topFadeBars[i].style="width: "+(navBars[i].offsetWidth-4)+";";
+				}
+			</script>
+		</div>
+	</div>
+	<div id="leftSideBar"></div>
+	<div id="content">
+	</div>
+	<div id="rightSideBar"></div>
+</body>
+</html>
