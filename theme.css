@@ -178,7 +178,7 @@ p {
 
 .halloween {
 	color: #ff8000;
-	background: #000000;
+	background: #000008;
 	text-align: center;
 	margin: auto;
 }
@@ -188,20 +188,20 @@ p {
 }
 .Thanksgiving {
 	color: #D2B48C;
-	background: #000000;
+	background: #000008;
 	text-align: center;
 	margin: auto;
 }
 .Thanksgiving::selection {
-	color: #000000;
+	color: #000008;
 	background: #D2B48C;
 }
 .Thanksgiving::-moz-selection {
-	color: #000000;
+	color: #000008;
 	background: #D2B48C;
 }
 #tree {
-	background: #000000;
+	background: #000008;
 	text-align: center;
 	margin: auto;
 }
@@ -214,7 +214,7 @@ p {
 .magenta{color:#ff00ff}
 .cyan{color:#00ffff}
 .white{color:#ffffff}
-color{white-space:pre;font-family:monospace;background-color:#000000}
+color{white-space:pre;font-family:monospace;background-color:#000008}
 .brown::-moz-selection{background-color:#4F3527}
 .black::-moz-selection{background-color:#000000}
 .red::-moz-selection{background-color:#ff0000;}
@@ -224,7 +224,7 @@ color{white-space:pre;font-family:monospace;background-color:#000000}
 .magenta::-moz-selection{background-color:#ff00ff}
 .cyan::-moz-selection{background-color:#00ffff}
 .white::-moz-selection{background-color:#ffffff}
-color::-moz-selection{white-space:pre;font-family:monospace;color:#000000}
+color::-moz-selection{white-space:pre;font-family:monospace;color:#000008}
 .brown::selection{background-color:#9E6A4E}
 .black::selection{background-color:#000000}
 .red::selection{background-color:#ff0000;}
@@ -234,4 +234,4 @@ color::-moz-selection{white-space:pre;font-family:monospace;color:#000000}
 .magenta::selection{background-color:#ff00ff}
 .cyan::selection{background-color:#00ffff}
 .white::selection{background-color:#ffffff}
-color::selection{white-space:pre;font-family:monospace;color:#000000}
+color::selection{white-space:pre;font-family:monospace;color:#000008}
