@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="theme.css">
 	<link href="./img/icon.png" rel="shortcut icon">
 	<script src="./christmas.js"></script>
+	<link rel="stylesheet" type="text/css" href="thanos.css">
 </head>
 <body>
 	<div id="topBar">
@@ -29,6 +30,7 @@
 	</div>
 	<div id="leftSideBar"></div>
 	<div id="content">
+		<?php require 'thanos.html'; ?>
 		<a href="https://docs.google.com/presentation/d/1hUPB4qvlSCXZCcVANWkt9PtjHS-dTLv81bR2ZkN9Wwo/edit?usp=sharing" style="color: #000000;">Government Class Presentation</a>
 		<div id="tree"></div>
 		<script>if((new Date()).getMonth()==11){colortree();}</script>
