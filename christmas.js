@@ -50,7 +50,7 @@ function coloring() {
 		}
 		total+=temp2[i];
 	}
-	document.getElementById("tree").innerHTML=total/*+(count++)+","+seq.values.length*/;
+	document.getElementById("decoration").innerHTML=total/*+(count++)+","+seq.values.length*/;
 	oldtime=time
 	time=(new Date()).getTime()
 	//console.log(time-oldtime)

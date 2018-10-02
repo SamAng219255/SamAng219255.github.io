@@ -180,7 +180,7 @@ p {
 	color: #ff8000;
 	background: #000008;
 	text-align: center;
-	margin: auto;
+	white-space: pre;
 }
 .halloween::selection {
 	color: #000000;
@@ -200,7 +200,7 @@ p {
 	color: #000008;
 	background: #D2B48C;
 }
-#tree {
+#decoration {
 	background: #000008;
 	text-align: center;
 	margin: auto;
