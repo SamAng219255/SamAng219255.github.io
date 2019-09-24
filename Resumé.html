@@ -8,7 +8,7 @@
 				font-size: 14pt;
 			}
 			.page {
-				margin: auto;
+				margin: 1em auto;
 				width: 6.5in;
 				height: 9in;
 				background-color: #ffffff;
@@ -40,9 +40,6 @@
 				font-size: 1em;
 				text-decoration: underline;
 			}
-			bold {
-				font-weight: bold;
-			}
 			a {
 				text-decoration: none;
 				color: #000000;
@@ -50,13 +47,20 @@
 			a:hover {
 				color: -webkit-link;
 			}
+			@media print {
+				.page {
+					margin: 0px;
+					box-shadow: none;
+				}
+			}
 		</style>
 	</head>
 	<body>
 		<div class="page">
 			<div id="header">
 				<div class="h1">Sam Anguiano</div>
-				<div class="pre" id="contacts">SamAng219255@gmail.com
+				<div class="pre" id="contacts">
+SamAng219255@gmail.com
 <a href="samang219255.github.io">samang219255.github.io</a></div>
 				<hr>
 			</div>
@@ -75,18 +79,19 @@
 				</ul>
 				<h2>Experience</h2>
 				<ul>
-					<li><bold>RHS School Cafeteria - Voluteer</bold> (mid 2013-2014 to 2016-2017 school years) Serving food.</li>
-					<li><bold>Richland Family History Center - Volunteer Librarian</bold> (2013-present) Catalogued and answered technical questions about software and computers.</li>
+					<li><b>McDonalds - "Crew" Member</b> (Mid June 2019 to present) Preparing and serving food. Working in a team under pressure.</li>
+					<li><b>RHS School Cafeteria - Voluteer</b> (mid 2013-2014 to 2016-2017 school years) Serving food.</li>
+					<li><b>Richland Family History Center - Volunteer Librarian</b> (2013-present) Catalogued books and answered technical questions about software and computers.</li>
 				</ul>
 				<h2>Education</h2>
 				<ul>
-					<li><bold>Richland High School</bold> (Graduated 2018)</li>
-					<li><bold>Tri-Tech - Computer Science/Cyber Security</bold> (2017-2018 school year)</li>
+					<li><b>Richland High School</b> (Graduated 2018)</li>
+					<li><b>Tri-Tech - Computer Science/Cyber Security</b> (2017-2018 school year)</li>
 				</ul>
 				<h2>Activities</h2>
 				<ul>
-					<li><bold>DOE Regional Science Bowl</bold> (2013-2014 to 2016-2017 school years) Science Knowledge Competition</li>
-					<li><bold>Boy Scouts of America</bold> (2011-2017)</li>
+					<li><b>DOE Regional Science Bowl</b> (2013-2014 to 2016-2017 school years) Science Knowledge Competition</li>
+					<li><b>Boy Scouts of America</b> (2011-2017)</li>
 				</ul>
 			</div> 
 		</div>
