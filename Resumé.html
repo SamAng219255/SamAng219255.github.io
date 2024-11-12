@@ -5,14 +5,15 @@
 				margin: 0px;
 				background-color: #808080;
 				font-family: Helvetica;
-				font-size: 14pt;
+				font-size: 11pt;
 			}
 			.page {
 				margin: 1em auto;
-				width: 6.5in;
-				height: 9in;
+				width: 8.5in;
+				height: 11in;
+				box-sizing: border-box;
 				background-color: #ffffff;
-				padding: 1in;
+				padding: 0.75in 1in;
 				box-shadow: -7px 5px 10px #404040;
 			}
 			.pre {
@@ -20,9 +21,58 @@
 			}
 			#contacts {
 				float: right;
+				margin-top: 1em;
 			}
 			#header {
-				font-size: 12pt;
+				font-size: 11pt;
+			}
+			#headline {
+				font-size: 1em;
+				font-weight: bold;
+			}
+			#summary {
+				margin-bottom: 1em;
+			}
+			#skills {
+  				columns: 2;
+  				-webkit-columns: 2;
+  				-moz-columns: 2;
+			}
+			.experience {
+				position: relative;
+				margin: 0.25em 0 0.75em;
+			}
+			.exp-position {
+				font-weight: bold;
+			}
+			.exp-time {
+				position: absolute;
+				top: 0;
+				right: 0;
+			}
+			.exp-employer {
+				font-style: italic;
+			}
+			.experience>ul {
+				margin: unset;
+			}
+			#education {
+
+			}
+			.education {
+				position: relative;
+				margin: 0.25em 0 0.75em;
+			}
+			.edu-degree {
+				font-weight: bold;
+			}
+			.edu-finished {
+				position: absolute;
+				top: 0;
+				right: 0;
+			}
+			.edu-school {
+				font-style: italic;
 			}
 			.h1 {
 				font-size: 3em;
@@ -37,8 +87,11 @@
 				border-color: #219255;
 			}
 			h2 {
+				all: unset;
+				display: block;
 				font-size: 1em;
 				text-decoration: underline;
+				font-weight: bold;
 			}
 			a {
 				text-decoration: none;
@@ -59,41 +112,92 @@
 		<div class="page">
 			<div id="header">
 				<div class="h1">Sam Anguiano</div>
-				<div class="pre" id="contacts">
-SamAng033146085@gmail.com
-<a href="samang219255.github.io">samang219255.github.io</a></div>
+				<div id="contacts">
+					<a href="mailto:sam@anguiano.net" target="_blank">Sam@Anguiano.net</a><br>
+					<a href="https://samang219255.github.io" target="_blank">samang219255.github.io</a><br>
+					<a href="https://www.linkedin.com/in/paul-sam-anguiano-041255338/" target="_blank">LinkedIn: paul-sam-anguiano-041255338</a>
+				</div>
 				<hr>
 			</div>
 			<div id="content">
-				<ul>
-					<li>Fast Learner</li>
-					<li>Patient</li>
-					<li>Good at Conflict Solving</li>
-				</ul>
+				<div id="headline">Software Developer – C / Web / Full-Stack</div>
+				<div id="summary">
+					I am a skilled software developer with years of experience in full-stack web development and design and in many backend languages including C, Swift, C#, Java, and Python. I have had experience working in a team on large software projects, and in working in fast-paced high-pressure environments. I was recognized for being a hard-worker, being highly knowledgeable, and for maintaining a positive attitude.
+				</div>
 				<h2>Skills</h2>
-				<ul>
-					<li>Javascript (jQuery), PHP, HTML, CSS, Java, C, C++, C#, Python, mySQL, and some Linux/Unix.</li>
-					<li>Well versed in iOS and OSX</li>
-					<li>Met with peers for twice-weekly creativity and conflict resolution exercises.</li>
-					<li>Calculus level math</li>
+				<ul id="skills">
+					<li>Javascript (jQuery), PHP, HTML, CSS, Java, C, C#, Python, MySQL, and Swift</li>
+					<li>Proficient with Google Doc Suite</li>
+					<li>Proficient with Mac and Linux and familiar with Windows</li>
+					<li>Creative problem solving</li>
+					<li>Math up to Calculus level</li>
+					<li>Attention to detail</li>
+					<li>Full-Stack Development</li>
+					<li>Teamwork</li>
+					<li>Communication</li>
+					<li>Flexible</li>
+					<li>Self-Starter</li>
 				</ul>
 				<h2>Experience</h2>
-				<ul>
-					<li><b>McDonalds - "Crew" Member</b> (Mid June 2019 to August 2021) Preparing and serving food. Working in a team under pressure.</li>
-					<li><a href="https://www.sburb.me/" target="_blank"><b>TGP - Programmer</b> (May 2019 to November 2020) Helping write a game in Unity (C#).</a></li>
-					<li><b>RHS School Cafeteria - Voluteer</b> (mid 2013-2014 to 2016-2017 school years) Serving food.</li>
-					<li><b>Richland Family History Center - Volunteer Librarian</b> (2013 to March 2020) Catalogued books and answered technical questions about software and computers.</li>
-				</ul>
+				<div id="experience">
+					<div class="experience">
+						<div>
+							<div class="exp-position">Crew Member – Drive-Thru</div>
+							<div class="exp-time">June 2019 — August 2021</div>
+							<div class="exp-employer">Adams Enterprises (McDonalds Franchisee)</div>
+						</div>
+						<ul>
+							<li>Improved customer satisfaction and retention</li>
+							<li>Processed over 100 transaction per hour</li>
+							<li>Executed instructions precisely while under stress</li>
+						</ul>
+					</div>
+					<div class="experience">
+						<div>
+							<div class="exp-position">Programmer – "The Genesis Project"</div>
+							<div class="exp-time">May 2019 — November 2020</div>
+							<div class="exp-employer">Perfectly Generic Team</div>
+						</div>
+						<ul>
+							<li>Established lasting conventions for key logic operations</li>
+							<li>Implemented complex modular behaviors</li>
+							<li>Initiated work on previously neglected features</li>
+						</ul>
+					</div>
+					<div class="experience">
+						<div>
+							<div class="exp-position">Volunteer Librarian</div>
+							<div class="exp-time">2013 — March 2020</div>
+							<div class="exp-employer">Richland Family History Center</div>
+						</div>
+						<ul>
+							<li>Enabled increased availability of digital records for patrons</li>
+							<li>Implemented the reorganization and recataloguing of vital records</li>
+							<li>Located and indexed records from a global database</li>
+						</ul>
+					</div>
+				</div>
 				<h2>Education</h2>
-				<ul>
-					<li><b>Richland High School</b> (Graduated 2018)</li>
-					<li><b>Tri-Tech - Computer Science/Cyber Security</b> (2017-2018 school year)</li>
-				</ul>
-				<h2>Activities</h2>
-				<ul>
-					<li><b>DOE Regional Science Bowl</b> (2013-2014 to 2016-2017 school years) Science Knowledge Competition</li>
-					<li><b>Boy Scouts of America</b> (2011-2017)</li>
-				</ul>
+				<div id="education">
+					<div class="education">
+						<div class="edu-degree">PathwayConnect Certificate</div>
+						<div class="edu-finished">Anticipated, Feb. 2025</div>
+						<div class="edu-school">BYU-Pathway Worldwide</div>
+						Coursework in time management, study habits, and communication skills.
+					</div>
+					<div class="education">
+						<div class="edu-degree">Computer Science/Cyber Security Course</div>
+						<div class="edu-finished">2018</div>
+						<div class="edu-school">Tri-Tech Skills Center</div>
+						Coursework in software, networking, and technology security.
+					</div>
+					<div class="education">
+						<div class="edu-degree">High School</div>
+						<div class="edu-finished">2018</div>
+						<div class="edu-school">Richland High School</div>
+						Participated in the Department of Energy Regional Science Bowl.
+					</div>
+				</div>
 			</div> 
 		</div>
 	</body>
